@@ -70,6 +70,7 @@ nav a:active {
 }
 
 .main {
+	display: block;
 	column-count: 2;
 	margin: 10px;
 
