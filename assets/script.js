@@ -5,7 +5,7 @@ if($(window).width() < 1000) {
 	}
 	window.onclick = function(event) {
 		if(!event.target.matches('button')) {
-			document.getElementByTagName("nav").remove("show");
+			document.getElementById("topnav").remove("show");
 		}
 	}
 }
