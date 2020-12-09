@@ -2,10 +2,10 @@
 if($(window).width() < 1000) {
 	function dropdownfunc() {
 		document.getElementById("topnav").classList.toggle("show");
-	}
+	}/*
 	window.onclick = function(event) {
 		if(!event.target.matches('button')) {
 			document.getElementById("topnav").remove("show");
 		}
-	}
+	}*/
 }
