@@ -87,14 +87,9 @@ button {
 section {
 	background-color: #F3F3F3;
 	padding: 1px 20px;
-/*	margin: 0px 20px 30px 20px;*/
 	margin: 15px;
 	overflow: hidden;
 	vertical-align: baseline;
-/*
-	width: calc(50% - 80px);
-	float: left;*/
-
 	-webkit-column-break-inside: avoid;
     page-break-inside: avoid;
     break-inside: avoid;
@@ -102,11 +97,7 @@ section {
 	display: inline-block;
 	width: calc(100% - 70px);
 }
-/*
-section:nth-child(odd) {
-	clear: both;
-}
-*/
+
 section h2 {
 	text-align: center;
 }
@@ -168,10 +159,13 @@ section p {
 	section p {
 		padding: 10px;
 	}
+	footer p {
+		padding: 10px;
+	}
 }
 
 footer {
-	padding: 5px 10px;
+	padding: 5px 20px;
 	overflow: hidden;
 	clear: both;
 	background: #005596;
