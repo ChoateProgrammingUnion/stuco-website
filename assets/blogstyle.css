@@ -75,26 +75,18 @@ button {
 
 .main {
 	display: block;
-	-webkit-column-count: 2;
-	-moz-column-count: 2;
-	column-count: 2;
-	margin: 10px 100px;
-
-	flex: 1;
+	margin: 10px;
+	text-align: center;
 }
 
 section {
 	background-color: #F3F3F3;
 	padding: 1px 20px 20px 20px;
-	margin: 15px;
+	margin: 15px 0px;
 	overflow: hidden;
-	vertical-align: baseline;
-	-webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-    break-inside: avoid;
 
 	display: inline-block;
-	width: calc(100% - 70px);
+	width: 910px;
 }
 
 section h2 {
@@ -154,6 +146,9 @@ section ul, ol {
 	.main {
 		column-count: 1;
 		margin: 10px;
+	}
+	section {
+		width: calc(100% - 70px);
 	}
 	section p {
 		padding: 10px;
