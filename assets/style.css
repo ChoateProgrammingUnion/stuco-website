@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
 
+::-webkit-scrollbar {
+	display: none;
+}
+
 html {
 	font-family: 'Public Sans',sans-serif;
 	color: #025595;
 	line-height: 1.5;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
 
 body {
