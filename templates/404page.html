@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>404</title>
+		<link rel="stylesheet" href="assets/blogstyle.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="assets/script.js"></script>
+		<link rel="icon" href="https://www.choate.edu/uploaded/favicon-crh.ico">
+	</head>
+	<body>
+		<header>
+			<a href="{{ navbar_items[0][1] }}">
+				<img src="assets/choatelogo.png" alt="logo" class="logo">
+			</a>
+			<button onClick="dropdownfunc()" id="dropdown">╲╱</button>
+			<nav id="topnav">
+				{% for nav_element in navbar_items %}
+					<a href="{{ nav_element[1] }}">{{ nav_element[0] }}</a>
+				{% endfor %}
+			</nav>
+		</header>
+		<h1>404</h1>
+		<section>
+			<h2></h2>
+			<p>The page could not be found.</p>
+		</section>
+
+	</body>
+
+</html>
